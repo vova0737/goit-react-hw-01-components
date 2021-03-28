@@ -7,7 +7,7 @@ const StatsListItem = ({ id, label, percentage }) => {
   return (
     <li key={id} className={styles.item}>
       <span className={styles.label}>{label}</span>
-      <span className={styles.percentage}>{percentage}</span>
+      <span className={styles.percentage}>{percentage} %</span>
     </li>
   )
 }

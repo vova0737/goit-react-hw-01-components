@@ -1,0 +1,31 @@
+.tableRow {
+  background-color: rgba(223, 217, 145, 0.452);
+}
+
+.tableRow:nth-child(2n) {
+  background-color: rgba(175, 228, 235, 0.452);
+}
+
+.td {
+  border: 1px solid #aeb7c0;
+}
+
+.transactionTable {
+  width: 500px;
+  border: 1px solid #13742b;
+  padding: 0;
+}
+
+.thead {
+  background-color: #13742b;
+}
+
+.th {
+  color: #fff;
+  font-weight: 250;
+  font-size: large;
+}
+
+.tbody {
+  text-align: center;
+}

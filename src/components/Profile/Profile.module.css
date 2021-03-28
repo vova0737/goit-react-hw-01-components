@@ -1,0 +1,83 @@
+.profile {
+  padding-bottom: 40px;
+  display: flex;
+  width: 299px;
+  height: 400px;
+  margin: 20px;
+  box-shadow: 0px 7px 16px -5px #21853f;
+  border-radius: 1%;
+  position: relative;
+  text-align: center;
+  font-family: Arial, serif;
+}
+.description {
+  width: 250px;
+  height: 300px;
+  padding: 25px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.avatar {
+  background-color: #aeb7c0;
+  width: 150px;
+  border-radius: 50%;
+}
+.name {
+  margin: 10px;
+  font-size: x-large;
+  font-weight: bold;
+}
+.tag {
+  margin: 10px;
+  color: #6f7983;
+}
+.location {
+  margin: 10px;
+  color: #5f666d;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  position: absolute;
+  bottom: 0px;
+}
+.statsItem {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 97px;
+  background-color: rgb(242, 245, 207);
+  border: rgb(225, 228, 233) solid 2px;
+  border-radius: 1%;
+  transition: all 100ms linear;
+  cursor: pointer;
+}
+
+.statsItem:hover {
+    background-color: rgb(170, 230, 170)
+}
+
+.statsItem:first-child {
+  border-right: none;
+}
+.statsItem:last-child {
+  border-left: none;
+}
+.label {
+  display: block;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.quantity {
+  display: block;
+  color: #000;
+  font-weight: bold;
+}
